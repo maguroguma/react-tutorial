@@ -1,6 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+import { Profile, Gallery } from "./tutorials/Profile";
+import Avatar, {
+  TodoList,
+  TodoListAnother,
+  TodoListYetAnother,
+} from "./tutorials/Avatar";
 
 function App() {
   return (
@@ -19,6 +26,20 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <hr />
+      <Profile />
+      <hr />
+      <Gallery />
+
+      <hr />
+      <Avatar />
+      <hr />
+      <TodoList />
+      <hr />
+      <TodoListAnother />
+      <hr />
+      <TodoListYetAnother />
     </div>
   );
 }
