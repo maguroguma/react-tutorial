@@ -11,6 +11,8 @@ import Avatar, {
 
 import PropsProfile from "./tutorials/PropsAvatar";
 
+import PackingList from "./tutorials/PackingList";
+
 function App() {
   return (
     <div className="App">
@@ -45,6 +47,9 @@ function App() {
 
       <hr />
       <PropsProfile />
+
+      <hr />
+      <PackingList />
     </div>
   );
 }
