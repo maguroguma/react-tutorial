@@ -13,6 +13,8 @@ import PropsProfile from "./tutorials/PropsAvatar";
 
 import PackingList from "./tutorials/PackingList";
 
+import List, { ListComplicated } from "./tutorials/List";
+
 function App() {
   return (
     <div className="App">
@@ -50,6 +52,11 @@ function App() {
 
       <hr />
       <PackingList />
+
+      <hr />
+      <List />
+      <hr />
+      <ListComplicated />
     </div>
   );
 }
