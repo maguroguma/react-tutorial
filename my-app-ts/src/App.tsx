@@ -9,6 +9,8 @@ import Avatar, {
   TodoListYetAnother,
 } from "./tutorials/Avatar";
 
+import PropsProfile from "./tutorials/PropsAvatar";
+
 function App() {
   return (
     <div className="App">
@@ -40,6 +42,9 @@ function App() {
       <TodoListAnother />
       <hr />
       <TodoListYetAnother />
+
+      <hr />
+      <PropsProfile />
     </div>
   );
 }
