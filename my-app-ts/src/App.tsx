@@ -17,6 +17,7 @@ import StatefulGallery, { Form } from "./tutorials/Gallery";
 import Counter, { AnotherCounter, FormSnapshot } from "./tutorials/Counter";
 import BatchCounter from "./tutorials/BatchCounter";
 import ObjectForm from "./tutorials/ObjectForm";
+import MutList, { DeletableList, InsertableList } from "./tutorials/MutList";
 
 function App() {
   return (
@@ -85,6 +86,11 @@ function App() {
 
       <hr />
       <ObjectForm />
+
+      <hr />
+      <MutList />
+      <DeletableList />
+      <InsertableList />
     </div>
   );
 }
