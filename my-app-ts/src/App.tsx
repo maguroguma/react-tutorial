@@ -16,6 +16,7 @@ import AnotherToolbar from "./tutorials/AnotherButton";
 import StatefulGallery, { Form } from "./tutorials/Gallery";
 import Counter, { AnotherCounter, FormSnapshot } from "./tutorials/Counter";
 import BatchCounter from "./tutorials/BatchCounter";
+import ObjectForm from "./tutorials/ObjectForm";
 
 function App() {
   return (
@@ -81,6 +82,9 @@ function App() {
 
       <hr />
       <BatchCounter />
+
+      <hr />
+      <ObjectForm />
     </div>
   );
 }
