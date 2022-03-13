@@ -13,6 +13,7 @@ import PackingList from "./tutorials/PackingList";
 import List, { ListComplicated } from "./tutorials/List";
 import { Toolbar } from "./tutorials/Button";
 import AnotherToolbar from "./tutorials/AnotherButton";
+import StatefulGallery, { Form } from "./tutorials/Gallery";
 
 function App() {
   return (
@@ -63,6 +64,13 @@ function App() {
         onUploadImage={() => alert("Uploading!")}
       />
       <AnotherToolbar />
+
+      <hr />
+      <StatefulGallery />
+      <br />
+      <StatefulGallery />
+      <br />
+      <Form />
     </div>
   );
 }
