@@ -8,12 +8,11 @@ import Avatar, {
   TodoListAnother,
   TodoListYetAnother,
 } from "./tutorials/Avatar";
-
 import PropsProfile from "./tutorials/PropsAvatar";
-
 import PackingList from "./tutorials/PackingList";
-
 import List, { ListComplicated } from "./tutorials/List";
+import { Toolbar } from "./tutorials/Button";
+import AnotherToolbar from "./tutorials/AnotherButton";
 
 function App() {
   return (
@@ -57,6 +56,13 @@ function App() {
       <List />
       <hr />
       <ListComplicated />
+
+      <hr />
+      <Toolbar
+        onPlayMovie={() => alert("Playing!")}
+        onUploadImage={() => alert("Uploading!")}
+      />
+      <AnotherToolbar />
     </div>
   );
 }
