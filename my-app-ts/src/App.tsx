@@ -15,6 +15,7 @@ import { Toolbar } from "./tutorials/Button";
 import AnotherToolbar from "./tutorials/AnotherButton";
 import StatefulGallery, { Form } from "./tutorials/Gallery";
 import Counter, { AnotherCounter, FormSnapshot } from "./tutorials/Counter";
+import BatchCounter from "./tutorials/BatchCounter";
 
 function App() {
   return (
@@ -77,6 +78,9 @@ function App() {
       <Counter />
       <AnotherCounter />
       <FormSnapshot />
+
+      <hr />
+      <BatchCounter />
     </div>
   );
 }
