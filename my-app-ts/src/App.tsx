@@ -14,6 +14,7 @@ import List, { ListComplicated } from "./tutorials/List";
 import { Toolbar } from "./tutorials/Button";
 import AnotherToolbar from "./tutorials/AnotherButton";
 import StatefulGallery, { Form } from "./tutorials/Gallery";
+import Counter, { AnotherCounter, FormSnapshot } from "./tutorials/Counter";
 
 function App() {
   return (
@@ -71,6 +72,11 @@ function App() {
       <StatefulGallery />
       <br />
       <Form />
+
+      <hr />
+      <Counter />
+      <AnotherCounter />
+      <FormSnapshot />
     </div>
   );
 }
